@@ -1,0 +1,42 @@
+{
+    "lanes": [
+        {
+            "id": "lane-todo",
+            "title": "To Do"
+        },
+        {
+            "id": "lane-in-progress",
+            "title": "In Progress"
+        },
+        {
+            "id": "lane-done",
+            "title": "Done"
+        }
+    ],
+    "tickets": [
+        {
+            "id": "ticket-1",
+            "title": "Set up project",
+            "description": "Initialize Vite and dependencies.",
+            "laneId": "lane-todo"
+        },
+        {
+            "id": "ticket-2",
+            "title": "Create Board",
+            "description": "Implement Board component.",
+            "laneId": "lane-todo"
+        },
+        {
+            "id": "ticket-3",
+            "title": "Implement lanes",
+            "description": "Lane layout and styling.",
+            "laneId": "lane-in-progress"
+        },
+        {
+            "id": "ticket-4",
+            "title": "Add DnD",
+            "description": "Enable drag and drop for tickets.",
+            "laneId": "lane-done"
+        }
+    ]
+}
